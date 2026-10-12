@@ -10,14 +10,14 @@ int main(){
     }
     
     int sum = 0;
-    
-    for(int i = 0; i <= num; i++){
+
+    while(num != 0){
         int digit = num % 10;
         sum += digit;
         num = num / 10;
     }
 
-    cout<<"Sum of digits: "<<sum<<endl;
+    cout<< "Sum of digits: "<< sum << endl;
 
     return 0;
 }
