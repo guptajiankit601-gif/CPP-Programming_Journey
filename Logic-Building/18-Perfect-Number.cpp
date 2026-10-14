@@ -20,6 +20,5 @@ int main() {
     } else {
         cout << n << " is not a Perfect Number." << endl;
     }
-
     return 0;
 }
